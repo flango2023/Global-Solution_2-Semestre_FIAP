@@ -15,6 +15,9 @@ from tensorflow.keras.layers import Conv2D, MaxPooling2D, Flatten, Dense, Dropou
 from tensorflow.keras.preprocessing.image import ImageDataGenerator
 from tensorflow.keras.callbacks import EarlyStopping, ModelCheckpoint
 
+tf.keras.utils.set_random_seed(42)
+np.random.seed(42)
+
 TAMANHO_IMAGEM = (64, 64)
 TAMANHO_LOTE = 32
 EPOCAS = 30

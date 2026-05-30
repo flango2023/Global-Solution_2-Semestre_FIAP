@@ -80,6 +80,7 @@ def processar_erupcoes(erupcoes: list) -> pd.DataFrame:
 
 def salvar_bruto(dados: list, nome_arquivo: str):
     os.makedirs(CAMINHO_BRUTO, exist_ok=True)
+    nome_arquivo = os.path.basename(nome_arquivo)
     caminho = os.path.join(CAMINHO_BRUTO, nome_arquivo)
     with open(caminho, "w") as arquivo:
         json.dump(dados, arquivo, indent=2)
@@ -88,6 +89,7 @@ def salvar_bruto(dados: list, nome_arquivo: str):
 
 def salvar_processado(df: pd.DataFrame, nome_arquivo: str):
     os.makedirs(CAMINHO_PROCESSADO, exist_ok=True)
+    nome_arquivo = os.path.basename(nome_arquivo)
     caminho = os.path.join(CAMINHO_PROCESSADO, nome_arquivo)
     df.to_csv(caminho, index=False)
     print(f"Dados processados salvos: {caminho} ({len(df)} registros)")

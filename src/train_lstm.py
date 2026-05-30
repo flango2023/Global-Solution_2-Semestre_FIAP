@@ -17,6 +17,9 @@ from tensorflow.keras.models import Sequential
 from tensorflow.keras.layers import LSTM, Dense, Dropout
 from tensorflow.keras.callbacks import EarlyStopping, ModelCheckpoint
 
+tf.keras.utils.set_random_seed(42)
+np.random.seed(42)
+
 CAMINHO_PROCESSADO = "data/processed/erupcoes_processado.csv"
 CAMINHO_MODELO = "models/lstm_solarguard.keras"
 COMPRIMENTO_SEQUENCIA = 30

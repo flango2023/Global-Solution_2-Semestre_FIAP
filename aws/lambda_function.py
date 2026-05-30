@@ -39,16 +39,20 @@ def classificar_alerta(classe: str) -> str:
 
 def salvar_alerta_dynamodb(erupcao: dict):
     tabela = dynamodb.Table(TABELA_DYNAMODB)
-    id_alerta = erupcao.get("flrID", f"FLR-{datetime.now(timezone.utc).timestamp()}")
-    classe = erupcao.get("classType", "")
+    id_alerta = str(erupcao.get("flrID", f"FLR-{datetime.now(timezone.utc).timestamp()}"))
+    classe = str(erupcao.get("classType", ""))[:10]
+    horario_evento = str(erupcao.get("beginTime", ""))[:30]
+    horario_pico = str(erupcao.get("peakTime", ""))[:30]
+    localizacao = str(erupcao.get("sourceLocation", ""))[:20]
+    regiao_ativa = str(erupcao.get("activeRegionNum", ""))[:10]
     tabela.put_item(Item={
         "id_alerta": id_alerta,
-        "horario_evento": erupcao.get("beginTime", ""),
-        "horario_pico": erupcao.get("peakTime", ""),
+        "horario_evento": horario_evento,
+        "horario_pico": horario_pico,
         "classe": classe,
         "nivel_alerta": classificar_alerta(classe),
-        "localizacao": erupcao.get("sourceLocation", ""),
-        "regiao_ativa": str(erupcao.get("activeRegionNum", "")),
+        "localizacao": localizacao,
+        "regiao_ativa": regiao_ativa,
         "criado_em": datetime.now(timezone.utc).isoformat(),
     })
 

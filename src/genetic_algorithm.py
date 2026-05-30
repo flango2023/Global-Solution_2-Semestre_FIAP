@@ -17,6 +17,10 @@ import tensorflow as tf
 from tensorflow.keras.models import Sequential
 from tensorflow.keras.layers import LSTM, Dense, Dropout
 
+tf.keras.utils.set_random_seed(42)
+np.random.seed(42)
+random.seed(42)
+
 CAMINHO_PROCESSADO = "data/processed/erupcoes_processado.csv"
 COMPRIMENTO_SEQUENCIA = 30
 TAMANHO_POPULACAO = 10
@@ -43,10 +47,8 @@ def carregar_sequencias():
     normalizador = MinMaxScaler()
     normalizado = normalizador.fit_transform(diario[["intensidade_maxima"]])
 
-    X, y = [], []
-    for i in range(len(normalizado) - COMPRIMENTO_SEQUENCIA):
-        X.append(normalizado[i:i + COMPRIMENTO_SEQUENCIA])
-        y.append(normalizado[i + COMPRIMENTO_SEQUENCIA])
+    X = [normalizado[i:i + COMPRIMENTO_SEQUENCIA] for i in range(len(normalizado) - COMPRIMENTO_SEQUENCIA)]
+    y = [normalizado[i + COMPRIMENTO_SEQUENCIA] for i in range(len(normalizado) - COMPRIMENTO_SEQUENCIA)]
 
     X, y = np.array(X), np.array(y)
     divisao = int(len(X) * 0.8)
