@@ -1,0 +1,13 @@
+.env
+__pycache__/
+*.pyc
+*.pyo
+*.h5
+*.pkl
+*.egg-info/
+.DS_Store
+venv/
+env/
+data/raw/*.json
+data/raw/*.csv
+data/processed/*.csv
