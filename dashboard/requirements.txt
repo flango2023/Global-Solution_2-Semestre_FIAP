@@ -2,6 +2,5 @@ requests
 numpy
 pandas
 matplotlib
-streamlit
-python-dotenv
 plotly
+python-dotenv
