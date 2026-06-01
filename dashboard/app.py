@@ -20,7 +20,6 @@ DONKI_BASE_URL = "https://kauai.ccmc.gsfc.nasa.gov/DONKI/WS/get"
 
 st.set_page_config(
     page_title="SolarGuard AI",
-    page_icon="",
     layout="wide"
 )
 
