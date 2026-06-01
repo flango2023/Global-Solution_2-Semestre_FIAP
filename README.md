@@ -1,15 +1,43 @@
-# FIAP - Faculdade de Informática e Administração Paulista
+# FIAP — Faculdade de Informática e Administração Paulista
 
 <p align="center">
-<a href= "https://www.fiap.com.br/"><img src="assets/logo-fiap.png" alt="FIAP - Faculdade de Informática e Admnistração Paulista" border="0" width=40% height=40%></a>
+<a href="https://www.fiap.com.br/"><img src="https://on.fiap.com.br/theme/fiap/circulo.png" alt="FIAP - Faculdade de Informática e Administração Paulista" border="0" width="40%" height="40%"></a>
 </p>
 
 <br>
 
-# SolarGuard AI: Sistema Inteligente de Alerta para Clima Espacial
+# Graduação ON em Inteligência Artificial
+## Global Solution 2026.1 — 2º Semestre
 
-## Integrante: 
-Richard Schmitz
+---
+
+## Sobre este Repositório
+
+Este repositório contém o projeto desenvolvido para a Global Solution 2026.1 do curso de Graduação ON em Inteligência Artificial da FIAP. O trabalho integra os conhecimentos adquiridos ao longo do segundo semestre, contemplando:
+
+- Redes Neurais Artificiais e Aprendizado Profundo;
+- Algoritmos Genéticos para otimização de modelos;
+- Visão Computacional aplicada a imagens de satélite;
+- Computação em Nuvem com AWS;
+- Plataformas e Serviços Cognitivos;
+- Pipeline de dados com APIs reais da NASA;
+- Painel interativo de monitoramento em tempo real.
+
+---
+
+## Integrante
+
+- Richard Schmitz — RM 567951
+
+## Painel Online
+
+Acesse o painel diretamente no navegador, sem instalação:
+
+**https://global-solution2-semestrefiap-e75ywdb4nra483pppzrhqr.streamlit.app**
+
+---
+
+# SolarGuard AI: Sistema Inteligente de Alerta para Clima Espacial
 
 ## Proposta
 O SolarGuard AI é um sistema inteligente de alerta antecipado que prediz erupções solares e tempestades geomagnéticas utilizando dados reais de satélites da NASA, aprendizado profundo e computação em nuvem. O sistema gera impacto direto na Terra ao proteger sistemas de GPS, redes elétricas, satélites e infraestruturas de telecomunicações.
