@@ -7,7 +7,7 @@
 <br>
 
 # Graduação ON em Inteligência Artificial
-## Global Solution 2026.1 — 2º Semestre
+## Global Solution 2026.2 — 2º Semestre
 
 ---
 
