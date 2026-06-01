@@ -5,10 +5,11 @@
 </p>
 
 <br>
+
 # SolarGuard AI: Sistema Inteligente de Alerta para Clima Espacial
 
-## Integrantes
-- Richard Schmitz
+## Integrante: 
+Richard Schmitz
 
 ## Proposta
 O SolarGuard AI é um sistema inteligente de alerta antecipado que prediz erupções solares e tempestades geomagnéticas utilizando dados reais de satélites da NASA, aprendizado profundo e computação em nuvem. O sistema gera impacto direto na Terra ao proteger sistemas de GPS, redes elétricas, satélites e infraestruturas de telecomunicações.
