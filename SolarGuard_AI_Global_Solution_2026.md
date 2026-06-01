@@ -18,6 +18,8 @@
 
 **Repositório GitHub:** https://github.com/flango2023/Global-Solution_2-Semestre_FIAP
 
+**Painel Online:** https://global-solution2-semestrefiap-e75ywdb4nra483pppzrhqr.streamlit.app
+
 **Vídeo Demonstrativo:** [A SER INSERIDO APÓS GRAVAÇÃO]
 
 ---

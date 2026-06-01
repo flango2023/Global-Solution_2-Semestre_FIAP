@@ -46,7 +46,7 @@ SolarGuard-AI/
 
 Acesse o painel diretamente no navegador, sem necessidade de instalar nada:
 
-**[A SER INSERIDO APOS DEPLOY NO STREAMLIT CLOUD]**
+**https://global-solution2-semestrefiap-e75ywdb4nra483pppzrhqr.streamlit.app**
 
 ### Opcao 2: Executar Localmente
 
