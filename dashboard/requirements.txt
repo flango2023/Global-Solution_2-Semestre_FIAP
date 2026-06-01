@@ -1,7 +1,7 @@
-requests==2.31.0
-numpy==1.26.4
-pandas==2.2.2
-matplotlib==3.8.4
-streamlit==1.35.0
-python-dotenv==1.0.1
-plotly==5.22.0
+requests
+numpy
+pandas
+matplotlib
+streamlit
+python-dotenv
+plotly
