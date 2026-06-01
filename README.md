@@ -7,7 +7,7 @@
 <br>
 
 # Graduação ON em Inteligência Artificial
-## Global Solution 2026.1 — 2º Semestre
+## Global Solution 2026.2 — 2º Semestre
 
 ---
 
@@ -28,12 +28,6 @@ Este repositório contém o projeto desenvolvido para a Global Solution 2026.1 d
 ## Integrante
 
 - Richard Schmitz — RM 567951
-
-## Painel Online
-
-Acesse o painel diretamente no navegador, sem instalação:
-
-**https://global-solution2-semestrefiap-e75ywdb4nra483pppzrhqr.streamlit.app**
 
 ---
 
