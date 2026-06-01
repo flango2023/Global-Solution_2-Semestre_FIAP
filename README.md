@@ -42,32 +42,46 @@ SolarGuard-AI/
 
 ## Como Executar
 
-### 1. Instalar dependencias
+### Opcao 1: Painel Online (sem instalacao)
+
+Acesse o painel diretamente no navegador, sem necessidade de instalar nada:
+
+**[A SER INSERIDO APOS DEPLOY NO STREAMLIT CLOUD]**
+
+### Opcao 2: Executar Localmente
+
+#### 1. Clonar o repositorio
+```bash
+git clone https://github.com/flango2023/Global-Solution_2-Semestre_FIAP.git
+cd Global-Solution_2-Semestre_FIAP
+```
+
+#### 2. Instalar dependencias
 ```bash
 pip3 install -r requirements.txt
 ```
 
-### 2. Coletar dados da NASA DONKI API
+#### 3. Coletar dados da NASA DONKI API
 ```bash
 python3 src/data_pipeline.py
 ```
 
-### 3. Treinar o modelo LSTM
+#### 4. Treinar o modelo LSTM
 ```bash
 python3 src/train_lstm.py
 ```
 
-### 4. Treinar o modelo CNN
+#### 5. Treinar o modelo CNN
 ```bash
 python3 src/train_cnn.py
 ```
 
-### 5. Executar o Algoritmo Genetico
+#### 6. Executar o Algoritmo Genetico
 ```bash
 python3 src/genetic_algorithm.py
 ```
 
-### 6. Iniciar o painel de monitoramento
+#### 7. Iniciar o painel de monitoramento
 ```bash
 streamlit run dashboard/app.py
 ```
