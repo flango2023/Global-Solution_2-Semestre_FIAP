@@ -29,6 +29,12 @@ Este repositório contém o projeto desenvolvido para a Global Solution 2026.1 d
 
 - Richard Schmitz — RM 567951
 
+## Painel Online
+
+Acesse o painel diretamente no navegador, sem instalação:
+
+**https://global-solution2-semestrefiap-e75ywdb4nra483pppzrhqr.streamlit.app**
+
 ---
 
 # SolarGuard AI: Sistema Inteligente de Alerta para Clima Espacial
