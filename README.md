@@ -29,6 +29,8 @@ Este repositório contém o projeto desenvolvido para a Global Solution 2026.1 d
 
 - Richard Schmitz — RM 567951
 
+- **Vídeo Demonstrativo:** https://youtu.be/Eu8rfopyyvs
+
 ## Painel Online
 
 Acesse o painel diretamente no navegador, sem instalação:
